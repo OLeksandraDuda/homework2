@@ -1,0 +1,193 @@
+section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  /* ---------------------------------- */
+  .wrapper {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .text-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  .animate {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateX(100%);
+    transition: transform 300ms linear;
+  }
+  .text-wrapper:hover .animate {
+    transform: translateX(0%);
+  }
+  .i {
+    font-size: 90px;
+    color: aqua;
+  }
+  .father {
+    width: 1200px;
+    position: relative;
+  }
+  .t {
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: -1000px;
+    /* z-index: 1; */
+  }
+  .y {
+    width: 800px;
+    height: 180px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .u {
+    width: 600px;
+    height: 160px;
+  }
+  .i {
+    width: 400px;
+    height: 140px;
+  }
+  .o {
+    width: 200px;
+    height: 120px;
+  }
+  .header {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+    z-index: 100;
+  }
+  .facebook-call {
+    position: fixed;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    z-index: 2;
+  }
+  .one::after {
+    content: "";
+    display: block;
+    width: 78px;
+    height: 4px;
+    margin-top: 30px;
+    background: #2196f3;
+    border-radius: 2px;
+  }
+  .smart {
+    font-size: 70px;
+    color: blue;
+  }
+  .env {
+    font-size: 70px;
+    color: yellowgreen;
+  }
+  
+  .ghost {
+    font-size: 70px;
+  }
+  
+  .div {
+  }
+  
+  .asd:hover {
+    background-color: red;
+  }
+  
+  .div {
+    width: 200px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    text-align: right;
+  }
+  .green {
+    top: 307px;
+    left: 307px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgb(65, 217, 65);
+  }
+  
+  .red {
+    z-index: 1;
+    position: absolute;
+    top: 270px;
+    left: 270px;
+    background-color: rgb(93, 149, 221);
+  }
+  
+  .blue {
+    z-index: 1;
+    top: 120px;
+    left: 120px;
+    position: absolute;
+    background-color: rgb(228, 86, 86);
+  }
+  
+   .blue {
+    /* z-index: 800; не працює */
+    background-color: rgb(226, 65, 73);
+   }
+   
+  
+  .hover {
+    position: relative;
+    background-color: rgb(30, 198, 209);
+    width: 20vw;
+    height: 100vh;
+    transform: translateX(-90%);
+    transition: transform 0.5s linear;
+  }
+  
+  .hover:hover {
+    transform: translateX(0%);
+  }
+  
+  .click {
+    position: absolute;
+    right: -10px;
+    top: 50vh;
+    rotate: 90deg;
+  }
+  .links {
+    padding: 100px;
+   
+
+  }
