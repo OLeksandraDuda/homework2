@@ -28,7 +28,6 @@
     padding: 0;
     list-style: 
   }
-
     html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -318,5 +317,40 @@ color: #FFFFFF;
 }
 .tech {
   color: #212121;
+  margin-left: 24px;
+  margin-top: 25px;
+  width: 322px;
+height: 36px;
+left: 239px;
+top: 1010px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+}
+.site {
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 322px;
+height: 30px;
+left: 239px;
+top: 1050px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
 
 }
